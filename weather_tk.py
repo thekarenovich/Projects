@@ -47,7 +47,7 @@ def get_weather(event=''):
 root = ThemedTk(theme="arc")
 root.geometry("500x400+1000+300")
 root.resizable(0, 0)
-root.title('Получение погоды')
+root.title('Погода')
 
 s = ttk.Style()
 s.configure("TLabel", padding=5, font="Arial 11")
